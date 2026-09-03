@@ -41,7 +41,19 @@ public class InfoText : MonoBehaviour
         }
         else if (currentSceneIndex == 7)
         {
+            infoText.text = " ";
+        }
+        else if (currentSceneIndex == 8)
+        {
+            infoText.text = "Boss Level!!!";
+        }
+        else if (currentSceneIndex == 9)
+        {
             infoText.text = "You finished the game! More levels coming soon!";
+        }
+        else if (currentSceneIndex == 10)
+        {
+            infoText.text = "High score goes here";
         }
 
     }

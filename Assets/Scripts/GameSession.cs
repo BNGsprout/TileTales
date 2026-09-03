@@ -6,6 +6,7 @@ public class GameSession : MonoBehaviour
 {
     [SerializeField] int playerLives = 5;
     [SerializeField] int score = 0;
+    public int CurrentScore => score;
 
     [SerializeField] TextMeshProUGUI livesText;
     [SerializeField] TextMeshProUGUI scoreText;
