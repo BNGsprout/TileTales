@@ -259,9 +259,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera (P2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6414267309065098167, guid: e1cb133ebd47ba5ee853bef4d023964c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8519026881426651339, guid: e1cb133ebd47ba5ee853bef4d023964c, type: 3}
       propertyPath: orthographic size
-      value: 5.5
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2161,6 +2165,10 @@ PrefabInstance:
     - target: {fileID: 7641316361129946807, guid: cdcca08d16a740cb8af3d75175ce50e5, type: 3}
       propertyPath: m_Name
       value: Joe (Player 2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641316361129946807, guid: cdcca08d16a740cb8af3d75175ce50e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8187986087515768552, guid: cdcca08d16a740cb8af3d75175ce50e5, type: 3}
       propertyPath: m_GravityScale
@@ -191209,11 +191217,27 @@ PolygonCollider2D:
       - {x: -0.5264225, y: -6.610836}
       - {x: 2.8012466, y: -6.705513}
       - {x: 4.3349133, y: -7.1215496}
-      - {x: 4.877329, y: -17.734976}
-      - {x: 26.185793, y: -17.760244}
-      - {x: 25.890293, y: -6.6834683}
-      - {x: 24.216963, y: -6.623131}
-      - {x: 24.311405, y: -1.870203}
+      - {x: 4.5503445, y: -18.917446}
+      - {x: 54.96337, y: -19.417807}
+      - {x: 100.27887, y: -18.987808}
+      - {x: 149.54639, y: -18.654228}
+      - {x: 183.28073, y: -20.874624}
+      - {x: 207.49077, y: -20.89675}
+      - {x: 253.8642, y: -20.70222}
+      - {x: 283.3593, y: -20.26712}
+      - {x: 296.1983, y: -20.616493}
+      - {x: 296.8152, y: 19.856863}
+      - {x: 263.66498, y: 18.716108}
+      - {x: 194.16402, y: 41.091526}
+      - {x: 168.37448, y: 66.12368}
+      - {x: 132.81439, y: 75.83557}
+      - {x: 87.338776, y: 74.29976}
+      - {x: 88.06395, y: 16.20682}
+      - {x: 82.71391, y: 13.420645}
+      - {x: 57.209953, y: 9.327275}
+      - {x: 51.542015, y: -2.0676117}
+      - {x: 41.591644, y: -2.5486374}
+      - {x: 24.657618, y: -2.5295734}
       - {x: 24.31651, y: 5.3620634}
       - {x: 24.116205, y: 7.2342844}
       - {x: 15.712315, y: 7.496422}
@@ -228599,7 +228623,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1725992576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229351,7 +229375,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8024728819128439460, guid: 746de29cdf0c88736bd92d242593c4ea, type: 3}
       propertyPath: orthographic size
-      value: 5.5
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -229698,7 +229722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6208872750052279546, guid: ec016ce101ecaa719a636b8c342afabf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7725224395783329592, guid: ec016ce101ecaa719a636b8c342afabf, type: 3}
       propertyPath: Target.TrackingTarget

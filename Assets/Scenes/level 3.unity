@@ -1487,6 +1487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera (P2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6414267309065098167, guid: e1cb133ebd47ba5ee853bef4d023964c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8519026881426651339, guid: e1cb133ebd47ba5ee853bef4d023964c, type: 3}
       propertyPath: orthographic size
       value: 5.5
@@ -163440,7 +163444,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1871020797
 Transform:
   m_ObjectHideFlags: 0
@@ -163631,6 +163635,10 @@ PrefabInstance:
     - target: {fileID: 7641316361129946807, guid: cdcca08d16a740cb8af3d75175ce50e5, type: 3}
       propertyPath: m_Layer
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641316361129946807, guid: cdcca08d16a740cb8af3d75175ce50e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -163889,6 +163897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 8024728819128439460, guid: 746de29cdf0c88736bd92d242593c4ea, type: 3}
+      propertyPath: orthographic size
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -164123,7 +164135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6208872750052279546, guid: ec016ce101ecaa719a636b8c342afabf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7725224395783329592, guid: ec016ce101ecaa719a636b8c342afabf, type: 3}
       propertyPath: Target.TrackingTarget
